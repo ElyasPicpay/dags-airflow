@@ -1,4 +1,6 @@
 import requests
+import json
+import logging
 
 from airflow import DAG
 from datetime import datetime, timedelta
