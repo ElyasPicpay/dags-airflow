@@ -31,7 +31,7 @@ def send_logs():
     # params = {"start_time": start_time, "end_time": end_time}
 
     # Fazendo a requisição HTTP para o Watson Assistant
-    response = requests.get(url, headers=headers, params=params)
+    response = requests.get(url)
 
     # Verificando se a requisição foi bem sucedida
     if response.status_code != 200:
