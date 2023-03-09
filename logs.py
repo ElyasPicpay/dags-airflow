@@ -61,7 +61,7 @@ with DAG(
 ) as dag:
 
     send_logs_watson = PythonOperator(
-        task_id="Logs Watson", python_callable=send_logs
+        task_id="Logs_Watson", python_callable=send_logs
     )
 
     send_logs_watson
